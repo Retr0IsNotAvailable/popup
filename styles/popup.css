@@ -10,6 +10,13 @@
   text-align: center;
   padding: 0 1.9rem 1.9rem;
   visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+
+.openPopupClass {
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1.0);
 }
 
 .popup img {
