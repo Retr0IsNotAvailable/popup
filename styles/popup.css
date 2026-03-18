@@ -4,9 +4,36 @@
   width: 25rem;
   border-radius: 0.3rem;
   position: absolute;
-  top: 50%;
+  top: 0;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(0.1);
   text-align: center;
   padding: 0 1.9rem 1.9rem;
+  visibility: hidden;
+}
+
+.popup img {
+  width: 6.25rem;
+  margin-top: -3.1rem;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin: 1.9rem 0 0.6rem;
+}
+
+.popup button {
+  width: 100%;
+  margin-top: 3.1rem;
+  padding: 0.6rem 0;
+  background: #6fd649;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
